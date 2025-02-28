@@ -3,7 +3,7 @@ library(dplyr)
 library(reshape2)
 library(ggplot2)
 
-nig <- read_csv("https://github.com/KartikeyAaditya/data-analysis-and-visualization-in-R/blob/main/Metadata_Indicator_API_NY.GDP.PCAP.PP.CD_DS2_en_csv_v2_41.csv.csv")
+nig <- read_csv("https://github.com/KartikeyAaditya/data-analysis-and-visualization-in-R/blob/main/Metadata_Country_API_NY.GDP.PCAP.PP.CD_DS2_en_csv_v2_41.csv")
 ger <- read_csv("https://github.com/KartikeyAaditya/data-analysis-and-visualization-in-R/blob/main/API_NY.GDP.PCAP.PP.CD_DS2_en_csv_v2_41.csv", skip = 3)
 
 
